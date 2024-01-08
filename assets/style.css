@@ -1,7 +1,16 @@
-*{
-    margin: 0;
-}
 
 .bg-custom{
     background-color: #11235A ;
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar-nav .nav-item a{
+    color:white;
+}
+
+.navbar a:hover{
+    color: #0a132c;
 }
