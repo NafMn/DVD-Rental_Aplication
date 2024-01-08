@@ -3,7 +3,7 @@ Proyek DVD-Rental_Application adalah aplikasi manajemen peminjaman dan pengembal
 
 # DVD-Rental_Application
 
-![DVD-Rental_Application Logo](link_gambar_logo)
+![DVD-Rental_Application Logo](CineMas.png)
 
 ## Deskripsi
 

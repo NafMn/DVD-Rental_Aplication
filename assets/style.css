@@ -1,3 +1,7 @@
+*{
+  margin:0;
+}
+
 
 .bg-custom{
     background-color: #11235A ;
@@ -14,3 +18,52 @@
 .navbar a:hover{
     color: #0a132c;
 }
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.logo h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+.logo h1 .highlight{
+    color: #EC4242;
+    font-weight: 750;
+}
+
+.form-search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search-input {
+    flex: 1;
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 8px;
+    background-color: #007bff00;
+    color: white;
+  }
+  .search-btn {
+    display: block;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #EC4242;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
