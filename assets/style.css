@@ -5,9 +5,3 @@
 .bg-custom{
     background-color: #11235A ;
 }
-
-.nav{
-    background-color: azure;
-    display: flex;
-    margin: 15px;
-}
