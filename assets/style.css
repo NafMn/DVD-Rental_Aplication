@@ -27,27 +27,31 @@
 }
 
 .logo h1{
-    color: white;
+    color: #EC4242;
     font-size: 80px;
-    font-weight: 500;
+    font-weight: 750;
 
 }
 
 .logo h1 .highlight{
-    color: #EC4242;
-    font-weight: 750;
+    color: #ffffff;
+    font-weight: 400;
 }
 
+.slogan{
+    text-align: center;
+    color: white;
+    margin: top 0;
+}
 .form-search{
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-top: 10px;
 }
 
 .search-input {
-    flex: 1;
-    width: 500px;
+    width: 100%;
+    max-width: 2500px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -64,6 +68,40 @@
     background-color: #EC4242;
     color: #fff;
     border: none;
-    border-radius: 15px;
+    border-radius: 15px 5px 15px 5px;
     cursor: pointer;
   }
+
+  .shadoww{
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .shadoww:hover{
+    transform: scale(1.1);
+  }
+
+  .footer{
+    height: 150px;
+    background-color: #0a132c;
+    text-align: center;
+    
+  }
+
+.logo-img img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.text-foot{
+    color: white;
+}
+
+.text-foot i{
+    color: rgb(239, 1, 1);
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
