@@ -1,0 +1,334 @@
+*{
+  margin:0;
+}
+
+
+.bg-custom{
+    background-color: #11235A ;
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar-nav .nav-item a{
+    color:white;
+}
+
+.navbar a:hover{
+    color: #0a132c;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.logo h1{
+    color: #EC4242;
+    font-size: 80px;
+    font-weight: 750;
+
+}
+
+.logo h1 .highlight{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.slogan{
+    text-align: center;
+    color: white;
+    margin: top 0;
+}
+.form-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 2500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 8px;
+    background-color: #007bff00;
+    color: white;
+  }
+  .search-btn {
+    display: block;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #EC4242;
+    color: #fff;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+    cursor: pointer;
+  }
+
+
+  .d-flex{
+    justify-content: center;
+  }
+
+
+  .shadoww{
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .shadoww:hover{
+    transform: scale(1.1);
+  }
+
+  .footer{
+    width: 100%;
+    height: 150px;
+    background-color: #0a132c;
+    text-align: center;
+    
+  }
+
+.logo-img img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.text-foot{
+    color: white;
+}
+
+.text-foot i{
+    color: rgb(239, 1, 1);
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* detail Pembayaran */
+
+.search-header{
+    width: 100%;
+    max-width: 2500px;
+    margin-top: 10px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 8px;
+    background-color: #007bff00;
+    color: white;
+}
+
+.nav-link img{
+    margin-top: 5px;
+}
+
+.main-detail{
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.cap{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+   margin-left: 20px;
+    
+}
+
+/* .card img{
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    
+} */
+
+.detail{
+    background-color: #D9D9D91A;
+    width: 100%;
+    max-width: 700px;
+    max-height: 600px;
+    margin-right: 20px;
+  
+       
+}
+
+.text-dt{
+    color: white;
+    margin: 40px 25px 40px;
+    padding-left: 30px;
+}
+.btn-detail{
+    padding-top: 125px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 85px;
+    color: white;
+    
+}
+
+.keranjang-detail{
+    background-color: #EC4242;
+    padding: 5px 15px;
+}
+
+.langsung-sewa{
+    background-color: #EC4242;
+    padding: 5px 15px;
+}
+
+/* bayar */
+
+
+.dashboard{
+    margin-top: 10px;
+    
+}
+
+.dashboard a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+.detail-bayar{
+    margin: 100px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-bayar{
+
+    margin: 0px 15px 30px 5px;
+    max-width: 650px;
+    
+}
+
+.head-bayar{
+    background-color: #D9D9D91A ;
+    display: flex;
+    margin: 0px 30px 0px 30px;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+/* Optional: Tambahkan margin jika diperlukan */
+.kiri {
+    margin-left:25px ;
+}
+
+.kanan {
+    margin-right: 25px ;
+}
+
+.nama-pesan{
+    font-size: 15px;
+}
+
+
+.main-bayar{
+    background-color: #D9D9D91A ;
+    margin: 50px 25px 50px 25px;
+    min-height: 375px;
+}
+.main-bayar h2{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.metode-pembayaran{
+    margin-left: 15px;
+   
+}
+.metode-pembayaran h5{
+    margin-left: 25px;
+    padding-left: 25px;
+    
+}
+.checkbox-input{
+    margin-left: 300px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.checkbox-label{
+    margin-left: 50px;
+}
+
+/* side bayar */
+
+.side-bayar{
+ background-color: rgba(255, 255, 255, 0.10);;
+ max-height: 525px;
+}
+
+.btn-jml{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.tambah-sewa{
+    background-color: #EC4242;
+    width: 100%;
+    max-width: 125px;
+    height: 20px;
+    text-align: center;
+}
+
+.hari-sewa{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .jumlah-sewa{
+   
+} */
+
+
+.hr{
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+}
+
+.harga-jumlah{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 10px 15px 0px 15px;
+}
+
+
+.tot{
+    text-align: center;
+}
+
+.btn-bayar{
+    background-color: #EC4242;
+    width: 100%;
+    max-width: 130px;
+    text-align: center;
+    color: white;
+    margin-top: 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
