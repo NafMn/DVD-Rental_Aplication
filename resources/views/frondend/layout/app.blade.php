@@ -3,13 +3,8 @@
 <body class="bg-custom">
         @include('frondend.include.nav-home')
 
-        <section class="search">
-            @include('frondend.include.search-home')
+        @yield('content')
 
+        <section class="footer">
+        @include('frondend.include.footer')
         </section>
-
-        @include('frondend.include.rekomen')
-
-    
-</body>
-</html>
