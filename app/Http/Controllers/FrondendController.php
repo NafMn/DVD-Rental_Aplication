@@ -18,6 +18,10 @@ class FrondendController extends Controller
     {
         return view('frondend.detail');
     }
+    public function main_bayar()
+    {
+        return view('frondend.bayar');
+    }
     /**
      * Show the form for creating a new resource.
      */

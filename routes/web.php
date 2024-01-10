@@ -27,3 +27,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/details', [FrondendController::class, 'detail_penyewaan']);
 
+Route::get('/bayar', [FrondendController::class, 'detail_penyewaan'])->name('user');
