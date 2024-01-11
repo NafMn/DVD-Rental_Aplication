@@ -26,6 +26,10 @@ class FrondendController extends Controller
     {
         return view('frondend.search');
     }
+    public function kebijakandanprivasi()
+    {
+        return view('frondend.sandk');
+    }
     /**
      * Show the form for creating a new resource.
      */

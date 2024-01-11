@@ -29,3 +29,4 @@ Route::get('/details', [FrondendController::class, 'detail_penyewaan']);
 
 Route::get('/bayar', [FrondendController::class, 'detail_penyewaan'])->name('user');
 Route::get('/search', [FrondendController::class, 'rekomendasi_film']);
+Route::get('/kebijakan-privasi', [FrondendController::class, 'kebijakandanprivasi']);
