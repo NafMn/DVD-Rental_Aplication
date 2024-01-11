@@ -22,6 +22,10 @@ class FrondendController extends Controller
     {
         return view('frondend.bayar');
     }
+    public function rekomendasi_film()
+    {
+        return view('frondend.search');
+    }
     /**
      * Show the form for creating a new resource.
      */
