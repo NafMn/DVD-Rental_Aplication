@@ -3,50 +3,14 @@
             <div class="untuk-anda col mt-4">
                 <p>Untuk Anda</p>
                 <div class="d-flex gap-3">
-                @foreach($untukAndaMovies as $movie)
+                @foreach($dvd as $movie)
                     <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="{{ asset($movie->image_path) }}" class="card-img-top shadoww" alt="...">
+                        <img src="{{Storage::url($movie->img_url)}}" class="card-img-top shadoww" alt="...">
                         <div class="card-body text-white" style="text-align: center;">
                             <p class="card-text">{{ $movie->title }}</p>
                         </div>
                     </div>
                 @endforeach
-                    <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="assets/images/poster.png" class="card-img-top shadoww" alt="...">
-                        <div class="card-body text-white" style="text-align: center;">
-                        <p class="card-text">Frieren: Beyond Journey's End</p>
-                        </div>
-                    </div>
-                    <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="assets/images/poster.png" class="card-img-top shadoww" alt="...">
-                        <div class="card-body text-white" style="text-align: center;">
-                        <p class="card-text">Frieren: Beyond Journey's End</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="terbaru col mt-4">
-                <p>Terbaru</p>
-                <div class="d-flex gap-3">
-                    <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="assets/images/poster.png" class="card-img-top shadoww" alt="...">
-                        <div class="card-body text-white" style="text-align: center;">
-                        <p class="card-text">Frieren: Beyond Journey's End</p>
-                        </div>
-                    </div>
-                    <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="assets/images/poster.png" class="card-img-top shadoww" alt="...">
-                        <div class="card-body text-white" style="text-align: center;">
-                        <p class="card-text">Frieren: Beyond Journey's End</p>
-                        </div>
-                    </div>
-                    <div class="card bg-transparent border-0" style="width: 150px;">
-                        <img src="assets/images/poster.png" class="card-img-top shadoww" alt="...">
-                        <div class="card-body text-white" style="text-align: center;">
-                        <p class="card-text">Frieren: Beyond Journey's End</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    
         </div>
     </section>

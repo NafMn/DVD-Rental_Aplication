@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\dvd;
+
 
 class FrondendController extends Controller
 {
@@ -11,11 +13,14 @@ class FrondendController extends Controller
      */
     public function index()
     {
-        //
+        $dvd = dvd::orderBy('created_at', 'DESC')->get();
+
+        return view('frondend.index', compact('dvd'));
     }
 
     public function detail_penyewaan()
     {
+        $dvd = dvd::orderBy('created_at', 'DESC')->get();
         return view('frondend.detail');
     }
     public function main_bayar()
@@ -51,7 +56,9 @@ class FrondendController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $dvd = dvd::find($id);
+        return view ('frondend.details', compact('dvd'));
+        
     }
 
     /**
