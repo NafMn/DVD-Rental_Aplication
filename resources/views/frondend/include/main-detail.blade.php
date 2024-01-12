@@ -9,13 +9,16 @@
         </div>
         <div class="detail rounded-3">
             <div class="text-dt">
-                <p class="text-detail">Rilis </p>
-                <p class="text-detail">Genre </p>
-                <p class="text-detail">Durasi </p>
-                <p class="text-detail">Produser </p>
-                <p class="text-detail">Status </p>
-                <p class="text-detail">Tersedia </p>
-                <p class="text-detail">Sinopsis </p>
+            @foreach($dvd as $detail)
+            <p class="text-detail">ID: {{ $detail->id }}</p>
+            <p class="text-detail">Rilis: {{ $detail->release_date }}</p>
+            <p class="text-detail">Genre: {{ $detail->genre }}</p>
+            <p class="text-detail">Durasi: {{ $detail->duration }}</p>
+            <p class="text-detail">Produser: {{ $detail->producer }}</p>
+            <p class="text-detail">Status: {{ $detail->status }}</p>
+            <p class="text-detail">Tersedia: {{ $detail->availability }}</p>
+            <p class="text-detail">Sinopsis: {{ $detail->deskripsi }}</p>
+        @endforeach
             </div>
             <div class="btn-detail">
                 <div class="keranjang-detail rounded-3">
