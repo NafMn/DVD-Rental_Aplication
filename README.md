@@ -37,9 +37,9 @@ php artisan key:generate
 ```html
 php artisan laravel/ui
 ```
-4. Install :
+4. Install npm :
 ```html
-php artisan key:generate
+npm install
 ```
 
 ## Kontribusi
