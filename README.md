@@ -3,7 +3,7 @@ Proyek DVD-Rental_Application adalah aplikasi manajemen peminjaman dan pengembal
 
 # DVD-Rental_Application
 
-![DVD-Rental_Application Logo](link_gambar_logo)
+![DVD-Rental_Application Logo](assets/images/cine.png)
 
 ## Deskripsi
 
@@ -19,13 +19,33 @@ Proyek **DVD-Rental_Application** adalah aplikasi manajemen peminjaman dan penge
 
 ## Teknologi yang Digunakan
 
-- [Contoh Bahasa Pemrograman]
-- [Framework atau Library yang Digunakan, jika ada]
-- [Database yang Digunakan]
+- PHP
+- Laravel, Laravel Ui, vite
+- MySql
 
+<head>
+  <!-- Tambahkan skrip Clipboard.js -->
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+</head>
+<button class="btn" data-clipboard-target="#copy-target">Copy</button>
+<pre id="copy-target">
+// Contoh kode yang dapat disalin
+console.log("Hello, World!");
+</pre>
+<script>
+  var clipboard = new ClipboardJS('.btn');
+  
+  clipboard.on('success', function(e) {
+    console.info('Text copied:', e.text);
+  });
+  
+  clipboard.on('error', function(e) {
+    console.error('Unable to copy text');
+  });
+</script>
 ## Cara Menggunakan
 
-1. [Instruksi instalasi]
+1. Install Composer : composer install
 2. [Langkah-langkah untuk menjalankan aplikasi]
 
 ## Kontribusi
