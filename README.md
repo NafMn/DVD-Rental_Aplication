@@ -22,7 +22,7 @@ Proyek **DVD-Rental_Application** adalah aplikasi manajemen peminjaman dan penge
 - PHP
 - Laravel, Laravel Ui, vite
 - MySql
-
+<html?>
 <head>
   <!-- Tambahkan skrip Clipboard.js -->
   <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
@@ -43,10 +43,12 @@ console.log("Hello, World!");
     console.error('Unable to copy text');
   });
 </script>
+</html>
 ## Cara Menggunakan
 
 1. Install Composer : composer install
 2. [Langkah-langkah untuk menjalankan aplikasi]
+3. 
 
 ## Kontribusi
 
