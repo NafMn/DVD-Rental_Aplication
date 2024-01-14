@@ -3,7 +3,7 @@ Proyek DVD-Rental_Application adalah aplikasi manajemen peminjaman dan pengembal
 
 # DVD-Rental_Application
 
-![DVD-Rental_Application Logo](assets/images/cine.png)
+![DVD-Rental_Application Logo](https://github.com/NafMn/DVD-Rental_Aplication/blob/nafis-frondend/public/assets/images/cine.png)
 
 ## Deskripsi
 
@@ -29,7 +29,18 @@ Proyek **DVD-Rental_Application** adalah aplikasi manajemen peminjaman dan penge
 ```html
 composer install
 ```
-2. [Langkah-langkah untuk menjalankan aplikasi]
+2. Install key:
+```html
+php artisan key:generate
+```
+3. Install Laravel UI:
+```html
+php artisan laravel/ui
+```
+4. Install :
+```html
+php artisan key:generate
+```
 
 ## Kontribusi
 
