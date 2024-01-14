@@ -25,7 +25,8 @@ Proyek **DVD-Rental_Application** adalah aplikasi manajemen peminjaman dan penge
 
 ## Cara Menggunakan
 
-1. Install Composer : ```html
+1. Install Composer : 
+```html
 composer install
 ```
 2. [Langkah-langkah untuk menjalankan aplikasi]
