@@ -23,12 +23,9 @@ Proyek **DVD-Rental_Application** adalah aplikasi manajemen peminjaman dan penge
 - Laravel, Laravel Ui, vite
 - MySql
 
-```html
-<script type="module" src="./node_modules/@github/clipboard-copy-element/dist/index.js">
-```
 ## Cara Menggunakan
 
-1. Install Composer : composer install
+1. Install Composer : ``` html composer install ```
 2. [Langkah-langkah untuk menjalankan aplikasi]
 
 ## Kontribusi
