@@ -35,6 +35,7 @@ Route::get('/details', [FrondendController::class, 'show']);
 
 Route::get('/bayar', [FrondendController::class, 'detail_penyewaan'])->name('user');
 Route::get('/search', [FrondendController::class, 'rekomendasi_film']);
+Route::get('/kebijakan-privasi', [FrondendController::class, 'kebijakandanprivasi']);
 
 
 
@@ -68,3 +69,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [App\Http\Controllers\AuthController::class, 'profile'])->name('profile');
 });
 Route::resource('dvd', DvdController::class);
+
